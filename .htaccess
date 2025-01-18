@@ -1,0 +1,28 @@
+# Habilitar Reescritura de URLs
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Asegurarse de que las solicitudes se dirijan a la carpeta public
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ /public/$1 [L]
+
+    # Redirigir todo a index.php dentro de la carpeta public
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php [L]
+</IfModule>
+
+# Proteger directorios sensibles
+<FilesMatch "(^|/)(application|system|config|logs|core|libraries|helpers)/">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Denegar acceso directo a los archivos .env, .htaccess, y otros sensibles
+<FilesMatch "^\.">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Opcional: Redirigir HTTP a HTTPS (descomentar si es necesario)
+#
