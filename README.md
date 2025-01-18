@@ -34,9 +34,9 @@ LiteForge/
 ├── public/  
 │ ├── assets/ # Archivos públicos como CSS, JS, imágenes  
 │ └── index.php # Archivo de entrada principal  
+│ └── .env # Variables de entorno  
 ├── logs/ # Archivos de registro  
 ├── config/ # Archivos de configuración  
-├── .env # Variables de entorno  
 ├── composer.json # Dependencias de Composer  
 ├── README.md # Documentación general del proyecto  
 └── LICENSE # Archivo de licencia 
