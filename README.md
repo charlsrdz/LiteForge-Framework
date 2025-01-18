@@ -19,8 +19,8 @@ LiteForge toma inspiración de frameworks populares como **CodeIgniter 3**, pero
 
 La estructura de directorios de LiteForge está organizada de manera que permita una gestión eficiente del código y los recursos. A continuación se detalla la estructura propuesta:
 
-/LiteForge 
-    /application 
+-/LiteForge 
+--/application 
         /controllers # Controladores de la aplicación 
         /models # Modelos que interactúan con la base de datos 
         /views # Vistas de la aplicación 
