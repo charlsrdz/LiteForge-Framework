@@ -4,7 +4,7 @@
 
 **LiteForge** es un framework PHP ligero y modular, diseñado para ofrecer una base sólida y flexible para el desarrollo de aplicaciones web. Su enfoque es permitir a los desarrolladores crear aplicaciones rápidas, seguras y fáciles de extender, utilizando una estructura minimalista pero poderosa.
 
-LiteForge toma inspiración de frameworks populares como **CodeIgniter 3**, pero con un enfoque en simplicidad, rendimiento y facilidad de uso. Este framework está pensado para desarrolladores que desean tener un control total sobre su aplicación, mientras aprovechan las herramientas y buenas prácticas integradas.
+LiteForge toma inspiración de frameworks populares, pero con un enfoque en simplicidad, rendimiento y facilidad de uso. Este framework está pensado para desarrolladores que desean tener un control total sobre su aplicación, mientras aprovechan las herramientas y buenas prácticas integradas.
 
 ## Características principales
 
@@ -54,7 +54,7 @@ LiteForge/
 
 1. Clona el repositorio de LiteForge:
     ```bash
-    git clone https://github.com/tu_usuario/LiteForge.git
+    git clone https://github.com/charlsrdz/LiteForge-Framework.git
     ```
 2. Instala las dependencias utilizando Composer:
     ```bash
