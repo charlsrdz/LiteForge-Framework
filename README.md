@@ -29,7 +29,7 @@ LiteForge/
 │ └── libraries/ # Librerías personalizadas  
 ├── system/  
 │ ├── [core](docs/system/core.md)/ # Código interno del framework  
-│ └── [libraries](docs/system.md)/ # Librerías de bajo nivel y componentes  
+│ └── libraries/ # Librerías de bajo nivel y componentes  
 │ └── └── [Validation](docs/system/libraries/validation.md)
 ├── public/  
 │ ├── assets/ # Archivos públicos como CSS, JS, imágenes  
