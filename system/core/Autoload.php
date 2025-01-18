@@ -1,7 +1,7 @@
 <?php
 
 // Definir el espacio de nombres y la ruta base para las clases
-define('BASE_NAMESPACE', 'App\\');
+define('BASE_NAMESPACE', 'LiteForge\\');
 define('BASE_PATH', __DIR__ . '/');
 
 // Registrar la función de autoloading con spl_autoload_register

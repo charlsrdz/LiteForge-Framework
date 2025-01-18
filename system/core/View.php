@@ -1,4 +1,5 @@
 <?php
+namespace LiteForge\Core;
 
 class View
 {
