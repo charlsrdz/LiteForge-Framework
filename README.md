@@ -19,7 +19,26 @@ LiteForge toma inspiración de frameworks populares como **CodeIgniter 3**, pero
 
 La estructura de directorios de LiteForge está organizada de manera que permita una gestión eficiente del código y los recursos. A continuación se detalla la estructura propuesta:
 
-/LiteForge /application /controllers # Controladores de la aplicación /models # Modelos que interactúan con la base de datos /views # Vistas de la aplicación /core # Clases base y funcionalidades fundamentales /helpers # Funciones auxiliares /libraries # Librerías personalizadas /system /core # Código interno del framework /libraries # Librerías de bajo nivel y componentes /public /assets # Archivos públicos como CSS, JS, imágenes index.php # Archivo de entrada principal /logs # Archivos de registro /config # Archivos de configuración .env # Variables de entorno composer.json # Dependencias de Composer README.md # Documentación general del proyecto
+/LiteForge 
+    /application 
+        /controllers # Controladores de la aplicación 
+        /models # Modelos que interactúan con la base de datos 
+        /views # Vistas de la aplicación 
+        /core # Clases base y funcionalidades fundamentales 
+        /helpers # Funciones auxiliares 
+        /libraries # Librerías personalizadas 
+    /system 
+        /core # Código interno del framework 
+        /libraries # Librerías de bajo nivel y componentes 
+    /public 
+        /assets # Archivos públicos como CSS, JS, imágenes 
+        index.php # Archivo de entrada principal 
+    /logs # Archivos de registro 
+    /config # Archivos de configuración 
+    .env # Variables de entorno 
+    composer.json # Dependencias de Composer 
+    README.md # Documentación general del proyecto
+    LICENSE # Archivo de licencia
 
 ### Descripción de directorios clave:
 
