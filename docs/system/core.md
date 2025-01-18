@@ -51,3 +51,17 @@ Funciones clave: load(), render(), etc.
  - Request.php
     - Gestiona las solicitudes HTTP. Facilita la obtención de parámetros, encabezados y otros detalles de las solicitudes.
     - Funciones clave: getParam(), getHeader(), etc.
+
+
+## Flujo de trabajo dentro de /system/core
+
+1. Controlador: Los controladores son responsables de manejar las solicitudes del usuario. Usan el enrutador para determinar qué método debe ejecutarse y luego interactúan con los modelos para recuperar datos. Finalmente, cargan las vistas para mostrar la respuesta.
+
+2. Modelo: Los modelos interactúan con la base de datos o cualquier otro origen de datos. Los controladores usan los modelos para obtener y manipular datos.
+
+3. Vista: Las vistas se cargan en los controladores y son responsables de presentar la información al usuario.
+
+4. Enrutador: El enrutador toma las solicitudes entrantes y las dirige al controlador y método correspondiente. Esto permite un enrutamiento limpio y eficiente en la aplicación.
+
+5. Manejo de Errores: Los errores y excepciones se gestionan globalmente dentro del framework, lo que permite una respuesta unificada ante fallos.
+
