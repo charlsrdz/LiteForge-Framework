@@ -29,7 +29,7 @@ Dentro de este directorio, almacenaremos las clases que proporcionan la funciona
     - Gestiona el enrutamiento de las solicitudes entrantes. Determina qué controlador y acción deben ejecutarse en función de la URL.
 Funciones clave: addRoute(), getRoute(), etc.
 
- - View.php
+ - [View.php](core/view.md)
     - Se encarga de cargar y renderizar las vistas. Acepta datos pasados desde los controladores y los muestra a través de plantillas.
 Funciones clave: load(), render(), etc.
 
