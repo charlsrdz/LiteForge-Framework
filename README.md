@@ -28,8 +28,8 @@ LiteForge/
 │ ├── helpers/ # Funciones auxiliares  
 │ └── libraries/ # Librerías personalizadas  
 ├── system/  
-│ ├── core/ # Código interno del framework  
-│ └── libraries/ # Librerías de bajo nivel y componentes  
+│ ├── [core](docs/system.md)/ # Código interno del framework  
+│ └── [libraries](docs/system.md)/ # Librerías de bajo nivel y componentes  
 ├── public/  
 │ ├── assets/ # Archivos públicos como CSS, JS, imágenes  
 │ └── index.php # Archivo de entrada principal  
