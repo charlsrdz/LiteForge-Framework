@@ -17,7 +17,7 @@ Dentro de este directorio, almacenaremos las clases que proporcionan la funciona
 
 ## Descripción de las clases clave
 
- - Controller.php  
+ - [Controller](core/controller.md).php  
     - Esta clase base será utilizada por todos los controladores de la aplicación. Proporcionará métodos comunes para gestionar las solicitudes y cargar vistas o modelos.  
     - Funciones clave: loadModel(), loadView(), render(), etc.
     
