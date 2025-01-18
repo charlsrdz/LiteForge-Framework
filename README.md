@@ -1,4 +1,4 @@
-# LiteForge - Documentación
+# LiteForge-Framework - Documentación
 
 ## Introducción
 
